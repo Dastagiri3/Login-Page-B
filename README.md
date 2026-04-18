@@ -55,8 +55,6 @@ portfolio/
 * 🔹 Landing Page Design
 * 🔹 Mini JavaScript Applications
 
-*(Add your own projects with links here)*
-
 ---
 
 ## 📦 Installation & Setup
@@ -85,9 +83,7 @@ cd your-portfolio
 
 ## 📬 Contact Me
 
-* Email: [your-email@example.com](mailto:your-email@example.com)
-* LinkedIn: https://linkedin.com/in/your-profile
-* GitHub: https://github.com/your-username
+* Email: gurudastagiri3@gmail.com
 
 ---
 
