@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="login-box">
+    <h2>Signup</h2>
+
+    <input type="text" id="newUsername" placeholder="Username">
+    <input type="password" id="newPassword" placeholder="Password">
+
+    <button onclick="signup()">Register</button>
+    <p>Already have an account? <a href="index.html">Login</a></p>
+
+    <div id="message"></div>
+</div>
+
+<script src="auth.js"></script>
+<script>
+function signup() {
+    const username = document.getElementById("newUsername").value;
+    const password = document.getElementById("newPassword").value;
+    const msg = document.getElementById("message");
+
+    const result = registerUser(username, password);
+
+    if (result.success) {
+        msg.style.color = "green";
+        msg.innerText = "Registered successfully!";
+        setTimeout(() => window.location.href = "index.html", 1000);
+    } else {
+        msg.style.color = "red";
+        msg.innerText = result.message;
+    }
+}
+</script>
+
+</body>
+</html>
