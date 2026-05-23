@@ -12,7 +12,7 @@ This portfolio showcases my skills, projects, and experience in frontend develop
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech
 
 * **Languages:** HTML, CSS, JavaScript
 * **Frameworks/Libraries:** React.js (or mention if not used)
