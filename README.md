@@ -48,7 +48,7 @@ portfolio/
 
 ---
 
-## 📸 Projects Included
+## 📸 Projects
 
 * 🔹 Personal Portfolio Website
 * 🔹 Login Page UI
